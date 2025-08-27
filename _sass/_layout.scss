@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Layout
 //
 // Styles for managing the structural hierarchy of the site.
@@ -66,12 +67,66 @@ footer {
 
 @media (max-width: $md-width) {
   .content {
+=======
+/******************************************************************************
+ * Content
+ ******************************************************************************/
+
+body {
+  padding-bottom: 70px;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    scroll-margin-top: 66px;
+  }
+}
+
+body.fixed-top-nav {
+  // Add some padding for the nav-bar.
+  padding-top: 56px;
+}
+
+body.sticky-bottom-footer {
+  // Remove padding below footer.
+  padding-bottom: 0;
+}
+
+.container {
+  max-width: $max-content-width;
+}
+
+// Profile
+.profile {
+  img {
+>>>>>>> acb501c2f722cffa20de83af45d52036e46042ee
     width: 100%;
   }
 }
 
+<<<<<<< HEAD
 @media (min-width: $md-width) and (max-width: $lg-width) {
   .content {
     width: 75%;
   }
 }
+=======
+// TODO: redefine content layout.
+
+/******************************************************************************
+ * Publications
+ ******************************************************************************/
+
+// TODO: redefine publications layout.
+
+/*****************************************************************************
+* Projects
+*****************************************************************************/
+
+// TODO: redefine projects layout.
+>>>>>>> acb501c2f722cffa20de83af45d52036e46042ee
